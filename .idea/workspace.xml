@@ -78,7 +78,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.112396695" vertical-offset="0" max-vertical-offset="605">
+            <state line="5" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.14049587" vertical-offset="0" max-vertical-offset="605">
               <folding />
             </state>
           </provider>
@@ -478,12 +478,12 @@
       <updated>1392998662639</updated>
       <workItem from="1392998664014" duration="1137000" />
       <workItem from="1392999921738" duration="75000" />
-      <workItem from="1393168899318" duration="439000" />
+      <workItem from="1393168899318" duration="491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1651000" />
+    <option name="totallyTimeSpent" value="1703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="705" extended-state="6" />
@@ -581,7 +581,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.112396695" vertical-offset="0" max-vertical-offset="605">
+        <state line="5" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.14049587" vertical-offset="0" max-vertical-offset="605">
           <folding />
         </state>
       </provider>
