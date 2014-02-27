@@ -43,8 +43,8 @@ public class KryptoUtil
 		KeyPair keyPair = generateKeyPairs();
 		PrivateKey privateKey = keyPair.getPrivate();
 		PublicKey publicKey = keyPair.getPublic();
-		storeKeys (dirPath+File.separator+"publickey.key", publicKey);
-		storeKeys (dirPath+File.separator+"privatekey.key", privateKey);
+		storeKeys (dirPath+File.separator+"public.pem", publicKey);
+		storeKeys (dirPath+File.separator+"private.pem", privateKey);
 	}
 	
 	private void storeKeys (String filePath, Key key)

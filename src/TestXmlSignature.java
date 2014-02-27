@@ -6,12 +6,12 @@ public class TestXmlSignature {
 	{
 	  String filePath = "keys";
 	  
-	  KryptoUtil util = new KryptoUtil();
-	  util.storeKeyPairs(filePath);
-	  String xmlFilePath = "xml" + File.separator + "employeesalary.xml";
-	  String signedXmlFilePath = "xml" + File.separator + "DigitalySignedEmpSel.xml";
-	  String privateKeyPath = "keys" + File.separator + "privatekey.key";
-	  String publicKeyPath = "keys" + File.separator + "publickey.key";
+	 // KryptoUtil util = new KryptoUtil();
+	 // util.storeKeyPairs(filePath);
+	  String xmlFilePath = "xml" + File.separator + "balance.xml";
+	  String signedXmlFilePath = "xml" + File.separator + "DigitalySignedBal.xml";
+	  String privateKeyPath = "keys" + File.separator + "private.pem";
+	  String publicKeyPath = "keys" + File.separator + "public.pem";
 	  XMLDigitalSignatureGenerator xmlSig = new XMLDigitalSignatureGenerator();
 	  xmlSig.generateXMLDigitalSignature(xmlFilePath, signedXmlFilePath, privateKeyPath, publicKeyPath);
 	  try 
