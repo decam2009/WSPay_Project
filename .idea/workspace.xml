@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2766a08-50f8-450f-af1e-ee33b1f20a36" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/KryptoUtil.java" afterPath="$PROJECT_DIR$/src/KryptoUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keys/private.pem" afterPath="$PROJECT_DIR$/keys/private.pem" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keys/public.pem" afterPath="$PROJECT_DIR$/keys/public.pem" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestXmlSignature.java" afterPath="$PROJECT_DIR$/src/TestXmlSignature.java" />
     </list>
     <ignored path="WSPay_Project.iws" />
@@ -70,10 +72,8 @@
       <file leaf-file-name="EnDeCoder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="9" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="850">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,10 +81,8 @@
       <file leaf-file-name="Connect.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Connect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="23" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="901">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="16" column="23" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="986">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,16 +90,25 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+            <state line="9" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestXmlSignature.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TestXmlSignature.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestXmlSignature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="17" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+            <state line="11" column="21" selection-start="287" selection-end="287" vertical-scroll-proportion="0.5054054" vertical-offset="0" max-vertical-offset="578">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLDigitalSignatureVerifier.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/XMLDigitalSignatureVerifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="13" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -110,16 +117,16 @@
       <file leaf-file-name="XMLDigitalSignatureGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/XMLDigitalSignatureGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="49" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="1240" max-vertical-offset="2159">
+            <state line="119" column="49" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="1789" max-vertical-offset="2159">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KryptoUtil.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="KryptoUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KryptoUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="20" selection-start="2355" selection-end="2355" vertical-scroll-proportion="-0.53208554" vertical-offset="1865" max-vertical-offset="2720">
+            <state line="43" column="12" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
               <folding />
             </state>
           </provider>
@@ -128,7 +135,7 @@
       <file leaf-file-name="CreateXML.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreateXML.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="4" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -149,18 +156,18 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/EnDeCoder.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Connect.java" />
         <option value="$PROJECT_DIR$/src/CreateXML.java" />
-        <option value="$PROJECT_DIR$/src/TestXmlSignature.java" />
         <option value="$PROJECT_DIR$/src/KryptoUtil.java" />
+        <option value="$PROJECT_DIR$/src/TestXmlSignature.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="705" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -545,15 +552,16 @@
       <workItem from="1393241306914" duration="5636000" />
       <workItem from="1393425971057" duration="89000" />
       <workItem from="1393512468988" duration="1563000" />
+      <workItem from="1393607911520" duration="346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9206000" />
+    <option name="totallyTimeSpent" value="9552000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="705" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1280" height="717" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -574,8 +582,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32713178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -606,19 +614,64 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Connect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="23" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestXmlSignature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/XMLDigitalSignatureGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="49" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="2023" max-vertical-offset="2788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KryptoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="20" selection-start="2355" selection-end="2355" vertical-scroll-proportion="0.0" vertical-offset="1921" max-vertical-offset="2720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreateXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Connect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="14" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="986">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -639,18 +692,14 @@
     <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Connect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="14" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="986">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -671,18 +720,14 @@
     <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="22" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="850">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Connect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -696,9 +741,7 @@
     <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -712,18 +755,14 @@
     <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="9" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="850">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="13" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="850">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -745,9 +784,7 @@
     <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -761,22 +798,13 @@
     <entry file="file://$PROJECT_DIR$/src/Connect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="23" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="901">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestXmlSignature.java">
+    <entry file="file://$PROJECT_DIR$/src/XMLDigitalSignatureVerifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+        <state line="16" column="13" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
           <folding />
         </state>
       </provider>
@@ -790,7 +818,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KryptoUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="20" selection-start="2355" selection-end="2355" vertical-scroll-proportion="-0.53208554" vertical-offset="1865" max-vertical-offset="2720">
+        <state line="43" column="12" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestXmlSignature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="21" selection-start="287" selection-end="287" vertical-scroll-proportion="0.5054054" vertical-offset="0" max-vertical-offset="578">
           <folding />
         </state>
       </provider>

@@ -6,8 +6,8 @@ public class TestXmlSignature {
 	{
 	  String filePath = "keys";
 	  
-	 // KryptoUtil util = new KryptoUtil();
-	 // util.storeKeyPairs(filePath);
+	  KryptoUtil util = new KryptoUtil();
+	  util.storeKeyPairs(filePath);
 	  String xmlFilePath = "xml" + File.separator + "balance.xml";
 	  String signedXmlFilePath = "xml" + File.separator + "DigitalySignedBal.xml";
 	  String privateKeyPath = "keys" + File.separator + "private.pem";
