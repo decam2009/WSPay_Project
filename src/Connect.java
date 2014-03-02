@@ -1,9 +1,7 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
+import javax.net.ssl.HttpsURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import javax.net.ssl.HttpsURLConnection;
 
 /**
  * Created by BORIS on 24/02/14.
@@ -12,24 +10,6 @@ public class Connect
 {
     public static HttpsURLConnection con;
 
-    public void Start()
-    {
-        String address = "https://dealer.telepayural.ru:8182/external/process/";
-        URL url;
-        try
-        {
-          url = new URL(address);
-          this.con = (HttpsURLConnection) url.openConnection();
-        }
-        catch (MalformedURLException mf)
-        {
-          mf.printStackTrace();
-        }
-        catch (IOException cn)
-        {
-          cn.printStackTrace();
-        }
-    }
 
     public void test(HttpsURLConnection pcon) throws IOException
     {
@@ -47,6 +27,44 @@ public class Connect
       catch(IOException e)
       {
         e.getStackTrace();
+      }
+    }
+
+    public void send (String pfile)
+    {
+      final String address = "https://dealer.telepayural.ru:8182/external/process";
+      File xmlFile = new File (pfile);
+      URL url = null;
+      try
+      {
+        url = new URL(address);
+        HttpsURLConnection con = (HttpsURLConnection) url.openConnection();
+        con.setRequestMethod("POST");
+        con.setDoOutput(true);
+        DataOutputStream wr = new DataOutputStream(con.getOutputStream());
+        wr.writeBytes (pfile);
+        wr.flush();
+        wr.close();
+        int responseCode = con.getResponseCode();
+        System.out.println(con.getURL().getFile());
+        System.out.println("Response code :" + responseCode);
+        BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+        String inputline;
+        StringBuffer response = new StringBuffer();
+        while ((inputline = in.readLine()) != null)
+        {
+          response.append(inputline);
+        }
+        in.close();
+        System.out.println(response.toString());
+      }
+      catch (MalformedURLException e)
+      {
+        e.printStackTrace();
+      }
+      catch (IOException e)
+      {
+        e.printStackTrace();
       }
     }
 }
