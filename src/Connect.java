@@ -46,7 +46,7 @@ public class Connect
         wr.flush();
         wr.close();
         int responseCode = con.getResponseCode();
-        System.out.println(con.getURL().getFile());
+
         System.out.println("Response code :" + responseCode);
         BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
         String inputline;
