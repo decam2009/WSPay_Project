@@ -30,7 +30,7 @@ public class Main
 
       /* --Sign and Verify XML */
 
-      String filePath = "keys";
+     /* String filePath = "keys";
       String xmlFile;
 
       KryptoUtil util = new KryptoUtil();
@@ -50,13 +50,13 @@ public class Main
       catch (Exception ex)
       {
         ex.printStackTrace();
-      }
+      }*/
 
       //--Connect to Telepay
       // Send XML to Telepay
 
       Connect tpcon;
       tpcon = new Connect();
-      tpcon.send("xml" + File.separator + "DigitalySignedBal.xml");
+      tpcon.send("xml" + File.separator + "balancepls.xml");
     }
 }

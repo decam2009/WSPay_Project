@@ -12,7 +12,8 @@ public class EnDeCoder
         PrivateKey prk;
         PublicKey pbk;
 
-        public String sign (String message) throws SignatureException
+
+      public String sign (String message) throws SignatureException
         {
             try
             {

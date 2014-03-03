@@ -2,6 +2,8 @@ import java.io.*;
 import javax.net.ssl.HttpsURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by BORIS on 24/02/14.
@@ -40,9 +42,26 @@ public class Connect
         url = new URL(address);
         HttpsURLConnection con = (HttpsURLConnection) url.openConnection();
         con.setRequestMethod("POST");
+        con.setRequestProperty("PayLogic-Signature","ga6puFY5VZwuOH2oQNKok+JetQ+13h0FT3x2ylv8gwnELsFZ7lJs+mVzOliVaAYvlEpQXexsAjGDibM60mFsQf9C9yI8Tkmit10x9CL+o4d0eP7ItWmiwdEnFphuwjUBX14XZ/D+Gr9qwz+R8Y338cXGm7kBHnSvaz/teqLKjQE=");
         con.setDoOutput(true);
         DataOutputStream wr = new DataOutputStream(con.getOutputStream());
-        wr.writeBytes (pfile);
+        FileReader fileReader = new FileReader(xmlFile);
+        BufferedReader br = new BufferedReader(fileReader);
+        List<String> arr = new ArrayList<String>();
+        String line = null;
+        String allXmlfile = "";
+        while ((line = br.readLine()) != null)
+        {
+          arr.add(line);
+        }
+        br.close();
+        for (String item: arr)
+          {
+            allXmlfile = allXmlfile + item;
+          }
+        System.out.println(allXmlfile);
+        wr.writeBytes(allXmlfile);
+        System.out.println(con.getRequestProperty("PayLogic-Signature"));
         wr.flush();
         wr.close();
         int responseCode = con.getResponseCode();
