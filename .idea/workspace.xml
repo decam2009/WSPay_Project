@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2766a08-50f8-450f-af1e-ee33b1f20a36" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keys/private.pem" afterPath="$PROJECT_DIR$/keys/private.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keys/public.pem" afterPath="$PROJECT_DIR$/keys/public.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Connect.java" afterPath="$PROJECT_DIR$/src/Connect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/DigitalySignedBal.xml" afterPath="$PROJECT_DIR$/xml/DigitalySignedBal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EnDeCoder.java" afterPath="$PROJECT_DIR$/src/EnDeCoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c2766a08-50f8-450f-af1e-ee33b1f20a36" name="Default" comment="" />
     <ignored path="WSPay_Project.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -86,7 +78,7 @@
       <file leaf-file-name="Connect.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Connect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="38" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.5939086" vertical-offset="650" max-vertical-offset="1615">
+            <state line="43" column="9" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.6370558" vertical-offset="480" max-vertical-offset="1615">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1607#1615#0" expanded="true" />
@@ -578,12 +570,12 @@
       <workItem from="1393797374936" duration="110000" />
       <workItem from="1393797563298" duration="504000" />
       <workItem from="1393809806705" duration="310000" />
-      <workItem from="1393850744756" duration="9341000" />
+      <workItem from="1393850744756" duration="9457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45591000" />
+    <option name="totallyTimeSpent" value="45707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="718" extended-state="6" />
@@ -1015,7 +1007,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Connect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="38" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.5939086" vertical-offset="650" max-vertical-offset="1615">
+        <state line="43" column="9" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.6370558" vertical-offset="480" max-vertical-offset="1615">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1607#1615#0" expanded="true" />
