@@ -1,6 +1,7 @@
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;
 import java.io.File;
+import java.security.SignatureException;
 
 /**
  * Created by BORIS on 23/02/14.
@@ -9,54 +10,39 @@ public class Main
 {
   static
   {
-    javax.net.ssl.HttpsURLConnection.setDefaultHostnameVerifier(new HostnameVerifier()
+    javax.net.ssl.HttpsURLConnection.setDefaultHostnameVerifier (new HostnameVerifier()
     {
       public boolean verify (String hostname, SSLSession sslSession)
       {
         if (hostname.equals("dealer.telepayural.ru"))
-        {
-          return true;
-        }
-        return false;
+          {
+            return true;
+          }
+          return false;
       }
     });
   }
 
   public static void main(String[] args)
+  {
+    System.setProperty("jsse.enableSNIExtension", "false");
+    Connect tpcon;
+    String xmlPath = "xml" + File.separator + "balancepls.xml";
+    String privateKeyfilePath = "keys" + File.separator + "private.pem";
+    String publicKeyfilePath = "keys" + File.separator + "public.pem";
+
+    tpcon = new Connect();
+   // System.out.println(tpcon.getXmlFileAsString(xmlPath));
+    try
     {
-
-
-      System.setProperty("jsse.enableSNIExtension", "false");
-
-      /* --Sign and Verify XML */
-
-     /* String filePath = "keys";
-      String xmlFile;
-
-      KryptoUtil util = new KryptoUtil();
-
-      util.storeKeyPairs(filePath);
-      String xmlFilePath = "xml" + File.separator + "balance.xml";
-      String signedXmlFilePath = "xml" + File.separator + "DigitalySignedBal.xml";
-      String privateKeyPath = "keys" + File.separator + "private.pem";
-      String publicKeyPath = "keys" + File.separator + "public.pem";
-      XMLDigitalSignatureGenerator xmlSig = new XMLDigitalSignatureGenerator();
-      xmlSig.generateXMLDigitalSignature(xmlFilePath, signedXmlFilePath, privateKeyPath, publicKeyPath);
-      try
-      {
-        boolean validFlag = XMLDigitalSignatureVerifier.isXmlDigitalSignatureValid(signedXmlFilePath, publicKeyPath);
-        System.out.println("Validity of XML Digital Signature : " + validFlag);
-      }
-      catch (Exception ex)
-      {
-        ex.printStackTrace();
-      }*/
-
-      //--Connect to Telepay
-      // Send XML to Telepay
-
-      Connect tpcon;
-      tpcon = new Connect();
-      tpcon.send("xml" + File.separator + "balancepls.xml");
+      System.out.println(tpcon.sign("П"));
+      System.out.println(tpcon.verify("П",tpcon.sign("П")));
     }
+    catch (SignatureException e)
+    {
+      e.printStackTrace();
+    }
+    // tpcon.getStoredPrivateKey(privateKeyfilePath);
+   // tpcon.send("xml" + File.separator + "balancepls.xml");
+  }
 }

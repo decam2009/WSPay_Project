@@ -8,12 +8,14 @@ import java.util.List;
 /**
  * Created by BORIS on 24/02/14.
  */
-public class Connect
+public class Connect extends EnDeCoder
 {
     public static HttpsURLConnection con;
+    public String allXmlFile = "";
 
 
-    public void test(HttpsURLConnection pcon) throws IOException
+
+  public void test(HttpsURLConnection pcon) throws IOException
     {
       try
       {
@@ -32,10 +34,39 @@ public class Connect
       }
     }
 
+    public String getXmlFileAsString (String pfile)
+    {
+      File xmlFile = new File(pfile);
+      String XmlFileAsText = "";
+      try
+      {
+        FileReader fileReader = new FileReader(xmlFile);
+        BufferedReader bufferedReader = new BufferedReader(fileReader);
+        List<String> arr = new ArrayList<String>();
+        String line = "";
+        while ((line = bufferedReader.readLine()) != null)
+        {
+          arr.add(line);
+        }
+        bufferedReader.close();
+        for (String item : arr)
+          {
+            XmlFileAsText = XmlFileAsText + item;
+          }
+      } catch (FileNotFoundException e)
+      {
+        e.printStackTrace();
+      }
+      catch (IOException e)
+      {
+        e.printStackTrace();
+      }
+      return XmlFileAsText;
+    }
+
     public void send (String pfile)
     {
       final String address = "https://dealer.telepayural.ru:8182/external/process";
-      File xmlFile = new File (pfile);
       URL url = null;
       try
       {
@@ -45,22 +76,7 @@ public class Connect
         con.setRequestProperty("PayLogic-Signature","ga6puFY5VZwuOH2oQNKok+JetQ+13h0FT3x2ylv8gwnELsFZ7lJs+mVzOliVaAYvlEpQXexsAjGDibM60mFsQf9C9yI8Tkmit10x9CL+o4d0eP7ItWmiwdEnFphuwjUBX14XZ/D+Gr9qwz+R8Y338cXGm7kBHnSvaz/teqLKjQE=");
         con.setDoOutput(true);
         DataOutputStream wr = new DataOutputStream(con.getOutputStream());
-        FileReader fileReader = new FileReader(xmlFile);
-        BufferedReader br = new BufferedReader(fileReader);
-        List<String> arr = new ArrayList<String>();
-        String line = null;
-        String allXmlfile = "";
-        while ((line = br.readLine()) != null)
-        {
-          arr.add(line);
-        }
-        br.close();
-        for (String item: arr)
-          {
-            allXmlfile = allXmlfile + item;
-          }
-        System.out.println(allXmlfile);
-        wr.writeBytes(allXmlfile);
+        wr.writeBytes(this.allXmlFile);
         System.out.println(con.getRequestProperty("PayLogic-Signature"));
         wr.flush();
         wr.close();
