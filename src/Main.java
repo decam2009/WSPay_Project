@@ -1,7 +1,12 @@
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;
 import java.io.File;
+import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
+import java.security.NoSuchProviderException;
+import java.security.PrivateKey;
 import java.security.SignatureException;
+import java.security.spec.InvalidKeySpecException;
 
 /**
  * Created by BORIS on 23/02/14.
@@ -10,7 +15,8 @@ public class Main
 {
   static
   {
-    javax.net.ssl.HttpsURLConnection.setDefaultHostnameVerifier (new HostnameVerifier()
+    javax.net.ssl.HttpsURLConnection.setDefaultHostnameVerifier
+    (new HostnameVerifier()
     {
       public boolean verify (String hostname, SSLSession sslSession)
       {
@@ -23,26 +29,21 @@ public class Main
     });
   }
 
-  public static void main(String[] args)
-  {
-    System.setProperty("jsse.enableSNIExtension", "false");
-    Connect tpcon;
-    String xmlPath = "xml" + File.separator + "balancepls.xml";
-    String privateKeyfilePath = "keys" + File.separator + "private.pem";
-    String publicKeyfilePath = "keys" + File.separator + "public.pem";
+  public static void main(String[] args) throws NoSuchAlgorithmException, IOException, InvalidKeySpecException, SignatureException {
 
-    tpcon = new Connect();
-   // System.out.println(tpcon.getXmlFileAsString(xmlPath));
-    try
+    System.setProperty("jsse.enableSNIExtension", "false");
+
+    Request request = new Request();
+
+    String requestSignature = request.sign(request.allXmlFile); // Запрос с подписью.
+
+    if (!request.verify(request.allXmlFile, requestSignature))
+      {
+        System.out.println("Error: Signature was not verified !");
+      }
+    else
     {
-      System.out.println(tpcon.sign("П"));
-      System.out.println(tpcon.verify("П",tpcon.sign("П")));
+      request.send(requestSignature);
     }
-    catch (SignatureException e)
-    {
-      e.printStackTrace();
-    }
-    // tpcon.getStoredPrivateKey(privateKeyfilePath);
-   // tpcon.send("xml" + File.separator + "balancepls.xml");
   }
 }

@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2766a08-50f8-450f-af1e-ee33b1f20a36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bcpkix_jdk15on_150.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trash/EnDeCoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Request.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Signature.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trash/Signature.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bcpkix_jdk15on_150.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/EnDeCoder.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/KryptoUtil.java" afterPath="$PROJECT_DIR$/trash/KryptoUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TestXmlSignature.java" afterPath="$PROJECT_DIR$/trash/TestXmlSignature.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/XMLDigitalSignatureGenerator.java" afterPath="$PROJECT_DIR$/trash/XMLDigitalSignatureGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/XMLDigitalSignatureVerifier.java" afterPath="$PROJECT_DIR$/trash/XMLDigitalSignatureVerifier.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Connect.java" afterPath="$PROJECT_DIR$/src/Connect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EnDeCoder.java" afterPath="$PROJECT_DIR$/src/EnDeCoder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSPay_Project.iml" afterPath="$PROJECT_DIR$/WSPay_Project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keys/private.pem" afterPath="$PROJECT_DIR$/keys/private.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keys/public.pem" afterPath="$PROJECT_DIR$/keys/public.pem" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WSPay_Project.iws" />
@@ -64,6 +71,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -76,12 +84,20 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0" vertical-offset="511" max-vertical-offset="918">
+            <state line="37" column="4" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="377" max-vertical-offset="782">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#274#520#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#483#729#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="36" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,20 +105,21 @@
       <file leaf-file-name="Connect.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Connect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="11" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.0" vertical-offset="1493" max-vertical-offset="1887">
+            <state line="48" column="35" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1513">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1132#1140#0" expanded="true" />
+                <element signature="e#810#818#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnDeCoder.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
+      <file leaf-file-name="Signature.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Signature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.083538085" vertical-offset="0" max-vertical-offset="2431">
-              <folding />
+            <state line="37" column="16" selection-start="1208" selection-end="1208" vertical-scroll-proportion="1.5454545" vertical-offset="0" max-vertical-offset="1411">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,9 +141,13 @@
         <option value="$PROJECT_DIR$/src/CreateXML.java" />
         <option value="$PROJECT_DIR$/src/KryptoUtil.java" />
         <option value="$PROJECT_DIR$/src/TestXmlSignature.java" />
-        <option value="$PROJECT_DIR$/src/Connect.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/EnDeCoder.java" />
+        <option value="$PROJECT_DIR$/src/PemParser.java" />
+        <option value="$PROJECT_DIR$/src/Request.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/trash/Signature.java" />
+        <option value="$PROJECT_DIR$/src/Connect.java" />
+        <option value="$PROJECT_DIR$/src/Signature.java" />
       </list>
     </option>
   </component>
@@ -134,6 +155,131 @@
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="717" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Bitwise operation issues</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CFML</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>GPath inspectionsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Initialization issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Spring MVCSpring Model</id>
+          </State>
+          <State>
+            <id>Spring Model</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Struts 2Struts</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -153,14 +299,14 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
-      <sortByType />
+      <sortByType ProjectPane="false" />
     </navigator>
     <panes>
       <pane id="Scope" />
@@ -196,20 +342,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WSPay_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WSPay_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -227,13 +359,13 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Google Drive/JAVA LIB/Bouncycastle/crypto-150/jars/bcpkix-jdk15on-150.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Google Drive/JAVA LIB/Bouncycastle/crypto-150/jars/bcprov-ext-jdk15on-150.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -256,9 +388,15 @@
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/trash" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/trash" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -573,15 +711,27 @@
       <workItem from="1393850744756" duration="10074000" />
       <workItem from="1393895917325" duration="167000" />
       <workItem from="1393940502935" duration="9083000" />
+      <workItem from="1393955987496" duration="1188000" />
+      <workItem from="1393978541311" duration="5072000" />
+      <workItem from="1394031767737" duration="7078000" />
+      <workItem from="1394042592514" duration="149000" />
+      <workItem from="1394066313769" duration="436000" />
+      <workItem from="1394066854382" duration="4089000" />
+      <workItem from="1394421977291" duration="1692000" />
+      <workItem from="1394459759419" duration="12334000" />
+      <workItem from="1394474095630" duration="1769000" />
+      <workItem from="1394476027439" duration="1094000" />
+      <workItem from="1394539748064" duration="2963000" />
+      <workItem from="1394548708804" duration="6049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55574000" />
+    <option name="totallyTimeSpent" value="99487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="717" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -590,19 +740,19 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3978328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Byte Code Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="100" y="122" width="1080" height="518" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -633,143 +783,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Connect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="26" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1292">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1132#1140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#274#520#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Connect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="29" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1292">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1132#1140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Connect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="986">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1132#1140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="493">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#274#520#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestXmlSignature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/XMLDigitalSignatureVerifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/XMLDigitalSignatureGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="49" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="2023" max-vertical-offset="2788">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KryptoUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="12" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="2975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreateXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Connect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="986">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1132#1140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="4" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="476">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#274#520#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#483#729#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestXmlSignature.java">
+    <entry file="file://$PROJECT_DIR$/trash/TestXmlSignature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="17" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/XMLDigitalSignatureGenerator.java">
+    <entry file="file://$PROJECT_DIR$/trash/XMLDigitalSignatureGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="119" column="49" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="2023" max-vertical-offset="2788">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KryptoUtil.java">
+    <entry file="file://$PROJECT_DIR$/trash/KryptoUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="113" column="20" selection-start="2355" selection-end="2355" vertical-scroll-proportion="0.0" vertical-offset="1921" max-vertical-offset="2720">
           <folding />
@@ -783,7 +821,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
+    <entry file="file://$PROJECT_DIR$/trash/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <folding />
@@ -794,8 +832,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="14" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="986">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1132#1140#0" expanded="true" />
+            <element signature="e#810#818#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -804,9 +841,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="16" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="476">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#274#520#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#483#729#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -818,7 +854,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
+    <entry file="file://$PROJECT_DIR$/trash/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <folding />
@@ -829,8 +865,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="14" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="986">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1132#1140#0" expanded="true" />
+            <element signature="e#810#818#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -839,9 +874,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="16" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="476">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#274#520#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#483#729#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -853,7 +887,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
+    <entry file="file://$PROJECT_DIR$/trash/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="22" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="850">
           <folding />
@@ -864,8 +898,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1132#1140#0" expanded="true" />
+            <element signature="e#810#818#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -874,14 +907,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="221">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#274#520#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#483#729#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
+    <entry file="file://$PROJECT_DIR$/trash/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
           <folding />
@@ -892,35 +924,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="221">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#274#520#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#483#729#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
+    <entry file="file://$PROJECT_DIR$/trash/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="9" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
+    <entry file="file://$PROJECT_DIR$/trash/EnDeCoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="13" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="850">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/security/Signature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="32" selection-start="6958" selection-end="6958" vertical-scroll-proportion="0.66423357" vertical-offset="2634" max-vertical-offset="21335" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../commons-codec-1.9/commons-codec-1.9-sources.jar!/org/apache/commons/codec/binary/Base64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="13" selection-start="2064" selection-end="2064" vertical-scroll-proportion="0.33277026" vertical-offset="398" max-vertical-offset="13022" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
@@ -948,7 +969,7 @@
         <state line="54" column="10" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.6415094" vertical-offset="663" max-vertical-offset="2482" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/XMLDigitalSignatureVerifier.java">
+    <entry file="file://$PROJECT_DIR$/trash/XMLDigitalSignatureVerifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="13" selection-start="488" selection-end="488" vertical-scroll-proportion="-0.5609137" vertical-offset="272" max-vertical-offset="952">
           <folding />
@@ -967,7 +988,7 @@
         <state line="483" column="13" selection-start="17015" selection-end="17015" vertical-scroll-proportion="0.31218275" vertical-offset="7510" max-vertical-offset="13192" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/XMLDigitalSignatureGenerator.java">
+    <entry file="file://$PROJECT_DIR$/trash/XMLDigitalSignatureGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="119" column="49" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="2159">
           <folding />
@@ -986,45 +1007,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Connect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="11" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.0" vertical-offset="1493" max-vertical-offset="1887">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1132#1140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0" vertical-offset="511" max-vertical-offset="918">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#274#520#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestXmlSignature.java">
+    <entry file="file://$PROJECT_DIR$/trash/TestXmlSignature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="3" selection-start="670" selection-end="670" vertical-scroll-proportion="0.73350257" vertical-offset="0" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KryptoUtil.java">
+    <entry file="file://$PROJECT_DIR$/trash/KryptoUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="37" selection-start="1182" selection-end="1182" vertical-scroll-proportion="1.2506143" vertical-offset="1" max-vertical-offset="2720">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnDeCoder.java">
+    <entry file="jar://$USER_HOME$/Google Drive/JAVA LIB/Bouncycastle/crypto-150/jars/bcpkix-jdk15on-150.jar!/org/bouncycastle/openssl/PEMKeyPair.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.083538085" vertical-offset="0" max-vertical-offset="2431">
+        <state line="12" column="57" selection-start="564" selection-end="564" vertical-scroll-proportion="0.32297063" vertical-offset="0" max-vertical-offset="579" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar!/org/jcp/xml/dsig/internal/dom/XMLDSigRI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trash/EnDeCoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="26" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.26649746" vertical-offset="762" max-vertical-offset="1156">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/security/KeyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="29" selection-start="5382" selection-end="5382" vertical-scroll-proportion="-4.2211304" vertical-offset="4064" max-vertical-offset="7599">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/security/Signature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="622" column="0" selection-start="23545" selection-end="23545" vertical-scroll-proportion="0.958231" vertical-offset="10184" max-vertical-offset="22083">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/rsa/RSASignature.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="3395" selection-end="3395" vertical-scroll-proportion="1.215736" vertical-offset="711" max-vertical-offset="1292" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../commons-codec-1.9/commons-codec-1.9-sources.jar!/org/apache/commons/codec/binary/BaseNCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="480" column="0" selection-start="17537" selection-end="17537" vertical-scroll-proportion="0.0" vertical-offset="7671" max-vertical-offset="8262" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/rsa/RSAKeyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="2651" selection-end="2651" vertical-scroll-proportion="0.74111676" vertical-offset="405" max-vertical-offset="799" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../commons-codec-1.9/commons-codec-1.9-sources.jar!/org/apache/commons/codec/binary/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="0" selection-start="4983" selection-end="4983" vertical-scroll-proportion="-0.4214876" vertical-offset="1887" max-vertical-offset="13022">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keys/public.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="407">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keys/private.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="31" selection-start="0" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keys/privated.der">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keys/publicd.der">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="4" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="377" max-vertical-offset="782">
+          <folding>
+            <element signature="e#483#729#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trash/Signature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="36" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Connect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="35" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1513">
+          <folding>
+            <element signature="e#810#818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Signature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="16" selection-start="1208" selection-end="1208" vertical-scroll-proportion="1.5454545" vertical-offset="0" max-vertical-offset="1411">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,7 +1221,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>bcpkix-jdk15on-150</last-edited>
+          <last-edited>commons-codec-1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -8,31 +8,13 @@ import java.util.List;
 /**
  * Created by BORIS on 24/02/14.
  */
-public class Connect extends EnDeCoder
+public class Connect extends Signature
 {
-    public static HttpsURLConnection con;
-    public String allXmlFile = "";
-
-
-
-  public void test(HttpsURLConnection pcon) throws IOException
-    {
-      try
-      {
-        System.out.println("----------Content of the URL----------");
-        BufferedReader br = new BufferedReader(new InputStreamReader(pcon.getInputStream()));
-        String input;
-        while ((input = br.readLine()) != null)
-        {
-          System.out.println(input);
-        }
-        br.close();
-      }
-      catch(IOException e)
-      {
-        e.getStackTrace();
-      }
-    }
+    private static HttpsURLConnection con;
+    public String allXmlFile = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n" +
+            "<request point=\"21173\">\n" +
+            "<balance/>\n" +
+            "</request>";
 
     public String getXmlFileAsString (String pfile)
     {
@@ -64,7 +46,7 @@ public class Connect extends EnDeCoder
       return XmlFileAsText;
     }
 
-    public void send (String pfile)
+    public void send (String psignature)
     {
       final String address = "https://dealer.telepayural.ru:8182/external/process";
       URL url = null;
@@ -73,13 +55,14 @@ public class Connect extends EnDeCoder
         url = new URL(address);
         HttpsURLConnection con = (HttpsURLConnection) url.openConnection();
         con.setRequestMethod("POST");
-        con.setRequestProperty("PayLogic-Signature","ga6puFY5VZwuOH2oQNKok+JetQ+13h0FT3x2ylv8gwnELsFZ7lJs+mVzOliVaAYvlEpQXexsAjGDibM60mFsQf9C9yI8Tkmit10x9CL+o4d0eP7ItWmiwdEnFphuwjUBX14XZ/D+Gr9qwz+R8Y338cXGm7kBHnSvaz/teqLKjQE=");
+        con.setRequestProperty("PayLogic-Signature", psignature);
         con.setDoOutput(true);
         DataOutputStream wr = new DataOutputStream(con.getOutputStream());
         wr.writeBytes(this.allXmlFile);
-        System.out.println(con.getRequestProperty("PayLogic-Signature"));
+        //System.out.println(con.getRequestProperty("PayLogic-Signature"));
         wr.flush();
         wr.close();
+
         int responseCode = con.getResponseCode();
 
         System.out.println("Response code :" + responseCode);

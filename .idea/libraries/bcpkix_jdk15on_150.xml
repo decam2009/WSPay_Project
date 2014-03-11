@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="bcpkix-jdk15on-150">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/Google Drive/JAVA LIB/Bouncycastle/crypto-150/jars/bcpkix-jdk15on-150.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
