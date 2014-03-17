@@ -34,7 +34,11 @@ public class Main
 
     Request request = new Request();
     Transfer transfer = new Transfer("https://dealer.telepayural.ru:8182/external/process");
-    String requestText = request.verifyNumber(1, "9128160770");
+    String requestText =
+    request.getBalance();
+    //request.getStatus(1);
+    //request.getPayment(1, 1000, 1, 3, "9222516216");
+    // request.verifyNumber(1, "9128160770");
 
     String requestSignature = request.sign(requestText); // Запрос с подписью.
 
